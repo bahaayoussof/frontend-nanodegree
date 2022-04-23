@@ -88,6 +88,13 @@ section {
   transition: ease 0.3s all;
 }
 
+/* highlight link */
+.navbar__menu .menu__link:focus,
+.navbar__menu .menu__link:active {
+  background: #333;
+  color: #fff;
+}
+
 /* Header Styles */
 .page__header {
   background: #fff;
@@ -102,12 +109,19 @@ section {
   background: #000;
   padding: 3em;
   color: #fff;
+  display: flex;
+  justify-content: space-around;
 }
 
 .page__footer p {
   color: #fff;
 }
 
+.page__footer a {
+  text-decoration: none;
+  color: #aaa;
+  margin-top: 1rem;
+}
 
 /* ---- Theme Rules ---- */
 /* Landing Container Styles */
